@@ -54,15 +54,17 @@ const questions = [
 // function to write README file
 function writeToFile(fileName, data) {}
 
-// function to initialize program
-function init() {
-  fs.writeFile("README.md", process.argv[2], function (err) {
-    if (err) {
-      return console.log(err);
-    }
-    console.log("Successfully wrote to readme.md!");
-  });
-}
+// // function to initialize program
+// function init() {
+//   fs.writeFile("README.md", process.argv[2], function (err) {
+//     if (err) {
+//       return console.log(err);
+//     }
+//     console.log("Successfully wrote to readme.md!");
+//   });
+// }
 
-// function call to initialize program
-init();
+// // function call to initialize program
+// init();
+
+inquirer.prompt(questions);
