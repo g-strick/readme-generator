@@ -39,7 +39,7 @@ inquirer
     {
       type: "input",
       name: "tests",
-      message: "What command should be run to run tests?",
+      message: "What command should be run to run tests? (ex: npm run test)",
     },
     {
       type: "input",
@@ -52,22 +52,32 @@ inquirer
       message: "What's your email address?",
     },
   ])
+
   .then((response) => {
-    let readme = `
-  # ${response.title}
-# ${response.description}
-# ${response.install}
-# ${response.use}
-# ${response.license}
-# ${response.contribute}
-# ${response.tests}
-# ${response.username}
-# ${response.email}
+    var readme = `
+# ${response.title}
 
+${response.description}
 
+## Install
+${response.install}
 
-  `;
-    // insert the rest of the readme info
+## Usage
+${response.use}
+
+## Licenses
+${response.license}
+
+## Contributing 
+${response.contribute}
+
+## Testing
+${response.tests}
+
+## Author
+* Github: ${response.username}
+* Email: ${response.email}
+`;
 
     fs.writeFile("testREADME.md", readme, (err) => {
       if (err) {
