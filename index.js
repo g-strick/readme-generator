@@ -55,6 +55,17 @@ inquirer
   .then((response) => {
     let readme = `
   # ${response.title}
+# ${response.description}
+# ${response.install}
+# ${response.use}
+# ${response.license}
+# ${response.contribute}
+# ${response.tests}
+# ${response.username}
+# ${response.email}
+
+
+
   `;
     // insert the rest of the readme info
 
