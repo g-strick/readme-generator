@@ -4,7 +4,8 @@ CLI that generates minimalistic README.md files.
 
 ## Demo
 
-![CLI Demo process](assets/readmegen.gif)
+![CLI Demo Process](assets/readmegen.gif)
+![test](assets/readmedemo.gif)
 
 ## Install
 
