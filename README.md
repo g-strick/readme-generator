@@ -4,6 +4,8 @@ CLI that generates minimalistic README.md files.
 
 ## Demo
 
+![CLI Demo process](assets/readmegen.gif)
+
 ## Install
 
 npm i

@@ -1,6 +1,6 @@
-# Readme Generator
+# test project
 
-CLI that generates minimalistic README.md files.
+this is a test
 
 ## Install
 
@@ -8,7 +8,7 @@ npm i
 
 ## Usage
 
-This project is used to simplify and streamline the process of adding readme files to github repos.
+to test
 
 ## Licenses
 
@@ -16,11 +16,13 @@ None
 
 ## Contributing
 
-Please reach out to me directly for contributions, issues and features requests. Your input is welcome!
+reach out to me
 
 ## Testing
 
+npm test
+
 ## Author
 
-- Github: g-strick
-- Email: graysonstricker@gmail.com
+- Github: testing
+- Email: testing@gmail.com
